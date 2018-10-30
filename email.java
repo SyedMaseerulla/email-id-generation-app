@@ -1,5 +1,4 @@
 
-package email_app;
 import java.util.Scanner;
 
 public class email {
@@ -62,29 +61,6 @@ public class email {
 		
 	}
 	
-	//set the email capacity
-	
-	/*public void setemailcapacity(int capacity){
-		this.emailCapacity = capacity;
-	}
-	//also get the alternate email id
-	public void setalternateemailid(String altemailid){
-		this.altemailaddr = altemailid;
-		
-	}
-	//change password
-	public void changepassword(String password){
-		this.password = password;
-	}
-	public int getemailcapacity(){
-		return emailCapacity;
-	}
-	public String getalternateemailid(){
-		return altemailaddr;
-	}
-	public String getpassword(){
-		return password;
-	}*/
 	public String showinfo(){
 		return ("DISPLAY NAME: " + firstname + " " + lastname +
 			   "\nCOMPANY EMAIL: " + email +
